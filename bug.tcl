@@ -1,0 +1,1 @@
+proc buggyProc {x} {if {$x > 10} {return "Greater than 10"} {return "Less than or equal to 10"} } puts [buggyProc 12] puts [buggyProc -2]
