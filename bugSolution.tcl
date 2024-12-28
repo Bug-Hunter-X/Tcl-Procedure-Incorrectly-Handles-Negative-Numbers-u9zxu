@@ -1,0 +1,1 @@
+proc correctProc {x} {if {$x < 0} {return "Negative Number"} elseif {$x > 10} {return "Greater than 10"} else {return "Less than or equal to 10"} } puts [correctProc 12] puts [correctProc -2] puts [correctProc 5]
